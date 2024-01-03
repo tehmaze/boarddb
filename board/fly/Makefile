@@ -1,0 +1,1 @@
+-include ../../bin/board.mk

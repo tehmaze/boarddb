@@ -1,0 +1,100 @@
+{
+    "manufacturer": "BIGTREETECH",
+    "product": "SKR V1.3",
+    "mcuFamily": "LPC",
+    "mcu": "LPC1768",
+    "stepstick": [
+        {
+            "label": "X",
+            "enable": "2.1",
+            "step": "2.2",
+            "dir": "2.6",
+            "diag": "1.29",
+            "cs": "1.17",
+            "uart": "1.17",
+            "uart_tx": "4.29"
+        },
+        {
+            "label": "Y",
+            "enable": "2.8",
+            "step": "0.19",
+            "dir": "0.20",
+            "diag": "1.27",
+            "cs": "1.16",
+            "uart": "1.16",
+            "uart_tx": "1.15"
+        },
+        {
+            "label": "Z",
+            "enable": "0.21",
+            "step": "0.22",
+            "dir": "2.11",
+            "diag": "1.25",
+            "cs": "1.10",
+            "uart": "1.10",
+            "uart_tx": "1.14"
+        },
+        {
+            "label": "E0",
+            "enable": "2.12",
+            "step": "2.13",
+            "dir": "0.11",
+            "diag": "1.28",
+            "cs": "1.8",
+            "uart": "1.8",
+            "uart_tx": "1.9"
+        },
+        {
+            "label": "E1",
+            "enable": "0.10",
+            "step": "0.1",
+            "dir": "0.0",
+            "diag": "1.26",
+            "cs": "1.1",
+            "uart": "1.1",
+            "uart_tx": "1.4"
+        }
+    ],
+    "endstop": {
+        "X min": "1.29",
+        "X max": "1.28",
+        "Y min": "1.27",
+        "Y max": "1.26",
+        "Z min": "1.25",
+        "Z max": 1.24
+    },
+    "heater": [
+        {
+            "label": "BED",
+            "pin": "2.5"
+        },
+        {
+            "label": "HE0",
+            "pin": "2.7"
+        },
+        {
+            "label": "HE1",
+            "pin": "2.4"
+        }
+    ],
+    "temperature": [
+        {
+            "label": "TB",
+            "pin": "0.23"
+        },
+        {
+            "label": "TH0",
+            "pin": "0.24"
+        },
+        {
+            "label": "TH1",
+            "pin": "0.24"
+        }
+    ],
+    "fan": [
+        {
+            "label": "FAN",
+            "pin": "2.3"
+        }
+    ]
+}

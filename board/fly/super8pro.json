@@ -1,0 +1,162 @@
+{
+    "manufacturer": "Fly",
+    "product": "Super8 Pro",
+    "url": "https://github.com/Mellow-3D/Fly-Super8Pro",
+    "mcuFamily": "STM32",
+    "mcu": "STM32H732",
+    "stepstick": [
+        {
+            "label": "Drive0",
+            "enable": "PF11",
+            "step": "PE2",
+            "dir": "PC5",
+            "cs": "PC4",
+            "uart": "PC4"
+        },
+        {
+            "label": "Drive1",
+            "enable": "PF14",
+            "step": "PE3",
+            "dir": "PF13",
+            "cs": "PF12",
+            "uart": "PF12"
+        },
+        {
+            "label": "Drive2",
+            "enable": "PG1",
+            "step": "PE4",
+            "dir": "PG0",
+            "cs": "PF15",
+            "uart": "PF15"
+        },
+        {
+            "label": "Drive3",
+            "enable": "PE9",
+            "step": "PE14",
+            "dir": "PE8",
+            "cs": "PE7",
+            "uart": "PE7"
+        },
+        {
+            "label": "Drive4",
+            "enable": "PF2",
+            "step": "PE15",
+            "dir": "PE11",
+            "cs": "PE10",
+            "uart": "PE10"
+        },
+        {
+            "label": "Drive5",
+            "enable": "PC15",
+            "step": "PE1",
+            "dir": "PF0",
+            "cs": "PF1",
+            "uart": "PF1"
+        },
+        {
+            "label": "Drive6",
+            "enable": "PG4",
+            "step": "PE0",
+            "dir": "PG3",
+            "cs": "PG2",
+            "uart": "PG2"
+        },
+        {
+            "label": "Drive7",
+            "enable": "PG7",
+            "step": "PE6",
+            "dir": "PG6",
+            "cs": "PG5",
+            "uart": "PG5"
+        }
+    ],
+    "endstop": {
+        "IO0": "PG12"
+    },
+    "heater": [
+        {
+            "label": "HEAT0",
+            "pin": "PB0"
+        },
+        {
+            "label": "HEAT1",
+            "pin": "PB1"
+        },
+        {
+            "label": "HEAT2",
+            "pin": "PC7"
+        },
+        {
+            "label": "HEAT3",
+            "pin": "PF7"
+        },
+        {
+            "label": "HEAT4",
+            "pin": "PF6"
+        }
+    ],
+    "temperature": [
+        {
+            "label": "ADC_0",
+            "pin": "PF4"
+        },
+        {
+            "label": "ADC_1",
+            "pin": "PF5"
+        },
+        {
+            "label": "ADC_2",
+            "pin": "PF9"
+        },
+        {
+            "label": "ADC_3",
+            "pin": "PF10"
+        },
+        {
+            "label": "ADC_4",
+            "pin": "PC0"
+        }
+    ],
+    "fan": [
+        {
+            "label": "FAN0",
+            "pin": "PA0"
+        },
+        {
+            "label": "FAN1",
+            "pin": "PA1"
+        },
+        {
+            "label": "FAN2",
+            "pin": "PA2"
+        },
+        {
+            "label": "FAN3",
+            "pin": "PA3"
+        },
+        {
+            "label": "FAN4",
+            "pin": "PA15"
+        },
+        {
+            "label": "FAN5",
+            "pin": "PB11"
+        },
+        {
+            "label": "FAN6",
+            "pin": "PB10"
+        },
+        {
+            "label": "FAN7",
+            "pin": "PD12"
+        },
+        {
+            "label": "FAN8",
+            "pin": "PD14"
+        },
+        {
+            "label": "FAN9",
+            "pin": "PD15"
+        }
+    ]
+}
