@@ -66,7 +66,7 @@ heater:
     pin:      PF7
   - label:    HEAT4
     pin:      PF6
-temperature:
+sensor:
   - label:    ADC_0
     pin:      PF4
   - label:    ADC_1

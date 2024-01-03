@@ -1,0 +1,65 @@
+---
+manufacturer: VzBoT
+product:      Vz235 (all-wheel drive)
+url:          https://github.com/VzBoT3D/VzBoT-Vz235
+printer:
+  kinematics:     corexy
+  max_velocity:   2000
+  max_accel:      40000
+  max_accel_to_decel: 20000
+  max_z_velocity: 60
+  max_z_accel:    600
+  square_corner_velocity: 10
+boards:
+  bigtreetech/kraken:
+    stepstick:
+      stepper_x:
+        - label:  S1
+      stepper_x1:
+        - label:  S2
+      stepper_y:
+        - label:  S3
+      stepper_y1:
+        - label:  S4
+    heater_bed:
+      heater:    BED
+      sensor:    BED
+      type:      Generic 3950
+      min_temp:  0
+      max_temp:  135
+    extruder:
+      label:     S6
+      heater:    HE0
+      sensor:    HE0
+      type:      PT1000
+      min_temp:  0
+      max_temp:  450
+
+  fly/super8pro:
+    stepstick:
+      stepper_x:
+        - label:  Drive6
+          driver: tmc5160
+      stepper_x1:
+        - label:  Drive5
+          driver: tmc5160
+      stepper_y:
+        - label:  Drive4
+          driver: tmc5160
+      stepper_y1:
+        - label:  Drive3
+          driver: tmc5160
+    heater_bed:
+      heater:    HEAT0
+      sensor:    ADC_0
+      type:      Generic 3950
+      min_temp:  0
+      max_temp:  135
+    extruder:
+      label:     Drive0
+      driver:    tmc2209
+      heater:    HEAT1
+      sensor:    ADC_1
+      type:      PT1000
+      min_temp:  0
+      max_temp:  450

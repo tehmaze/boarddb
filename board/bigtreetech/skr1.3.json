@@ -77,7 +77,7 @@
             "pin": "2.4"
         }
     ],
-    "temperature": [
+    "sensor": [
         {
             "label": "TB",
             "pin": "0.23"

@@ -95,7 +95,7 @@
             "pin": "PF6"
         }
     ],
-    "temperature": [
+    "sensor": [
         {
             "label": "ADC_0",
             "pin": "PF4"

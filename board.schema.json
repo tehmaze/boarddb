@@ -103,8 +103,8 @@
             },
             "uniqueItems": true
         },
-        "temperature": {
-            "description": "Temperature sensor pin definitions",
+        "sensor": {
+            "description": "Sensor pin definitions",
             "type": "array",
             "items": {
                 "type": "object",
@@ -153,5 +153,5 @@
             "uniqueItems": true
         }
     },
-    "required": [ "manufacturer", "product", "mcu", "mcuFamily", "stepstick", "endstop", "heater", "temperature", "fan" ]
+    "required": [ "manufacturer", "product", "mcu", "mcuFamily", "stepstick", "endstop", "heater", "sensor", "fan" ]
 }    

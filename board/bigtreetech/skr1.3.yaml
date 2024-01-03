@@ -58,7 +58,7 @@ heater:
     pin:      "2.7"
   - label:    "HE1"
     pin:      "2.4"
-temperature:
+sensor:
   - label:    TB
     pin:      "0.23"
   - label:    TH0

@@ -1,0 +1,171 @@
+{
+    "manufacturer": "BIGTREETECH",
+    "product": "Kraken",
+    "url": "https://biqu.equipment/collections/new-arrival/products/kraken-for-voron-phoenix",
+    "mcuFamily": "STM32",
+    "mcu": "STM32H732",
+    "stepstick": [
+        {
+            "label": "S1",
+            "enable": "PE6",
+            "step": "PC14",
+            "dir": "PC13",
+            "cs": "PD6",
+            "diag": "PC15",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S2",
+            "enable": "PE3",
+            "step": "PE5",
+            "dir": "PE4",
+            "cs": "PD5",
+            "diag": "PF0",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S3",
+            "enable": "PE0",
+            "step": "PE2",
+            "dir": "PE1",
+            "cs": "PD4",
+            "diag": "PF1",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S4",
+            "enable": "PB7",
+            "step": "PB9",
+            "dir": "PB8",
+            "cs": "PD3",
+            "diag": "PF2",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S5",
+            "enable": "PG13",
+            "step": "PG9",
+            "dir": "PG10",
+            "cs": "PD2",
+            "diag": "PF3",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S6",
+            "enable": "PG12",
+            "step": "PG11",
+            "dir": "PD7",
+            "cs": "PA15",
+            "diag": "PF4",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S7",
+            "enable": "PB5",
+            "step": "PB4",
+            "dir": "PB3",
+            "cs": "PA9",
+            "diag": "PF10",
+            "driver": "tmc2160"
+        },
+        {
+            "label": "S8",
+            "enable": "PG14",
+            "step": "PG15",
+            "dir": "PB6",
+            "cs": "PA10",
+            "diag": "PC0",
+            "driver": "tmc2160"
+        }
+    ],
+    "endstop": {
+        "MIN1": "PC15",
+        "MIN2": "PF0",
+        "MIN3": "PF1",
+        "MIN4": "PF2",
+        "MIN5": "PF3",
+        "MIN6": "PF4",
+        "MIN7": "PF10",
+        "MIN8": "PC0"
+    },
+    "heater": [
+        {
+            "label": "BED",
+            "pin": "PF5"
+        },
+        {
+            "label": "HE0",
+            "pin": "PF6"
+        },
+        {
+            "label": "HE1",
+            "pin": "PF7"
+        },
+        {
+            "label": "HE2",
+            "pin": "PF9"
+        },
+        {
+            "label": "HE3",
+            "pin": "PF8"
+        }
+    ],
+    "sensor": [
+        {
+            "label": "BED",
+            "pin": "PB0"
+        },
+        {
+            "label": "HE0",
+            "pin": "PB1"
+        },
+        {
+            "label": "HE1",
+            "pin": "PC5"
+        },
+        {
+            "label": "HE2",
+            "pin": "PC4"
+        },
+        {
+            "label": "HE3",
+            "pin": "PA7"
+        }
+    ],
+    "fan": [
+        {
+            "label": "FAN0",
+            "pin": "PA0"
+        },
+        {
+            "label": "FAN1",
+            "pin": "PA1"
+        },
+        {
+            "label": "FAN2",
+            "pin": "PA2"
+        },
+        {
+            "label": "FAN3",
+            "pin": "PA3"
+        },
+        {
+            "label": "FAN4",
+            "pin": "PA4"
+        },
+        {
+            "label": "FAN5",
+            "pin": "PA5"
+        },
+        {
+            "label": "FAN6",
+            "pin": "PA6",
+            "tach_pin": "PC1"
+        },
+        {
+            "label": "FAN7",
+            "pin": "PE8",
+            "tach_pin": "PG0"
+        }
+    ]
+}
