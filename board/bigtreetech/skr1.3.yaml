@@ -50,7 +50,7 @@ endstop:
   Y min:      "1.27"
   Y max:      "1.26"
   Z min:      "1.25"
-  Z max:      1.24
+  Z max:      "1.24
 heater:
   - label:    BED
     pin:      "2.5"
