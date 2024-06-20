@@ -3,7 +3,9 @@
     "product": "Super8 Pro",
     "url": "https://github.com/Mellow-3D/Fly-Super8Pro",
     "mcuFamily": "STM32",
-    "mcu": "STM32H732",
+    "mcu": [
+        "stm32h732"
+    ],
     "stepstick": [
         {
             "label": "Drive0",

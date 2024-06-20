@@ -3,7 +3,9 @@
     "product": "Kraken",
     "url": "https://biqu.equipment/collections/new-arrival/products/kraken-for-voron-phoenix",
     "mcuFamily": "STM32",
-    "mcu": "STM32H732",
+    "mcu": [
+        "stm32h732"
+    ],
     "stepstick": [
         {
             "label": "S1",

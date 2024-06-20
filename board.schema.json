@@ -23,7 +23,10 @@
         },
         "mcu": {
             "description": "Type of micro controller",
-            "type": "string"
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         },
         "mcuFamily": {
             "description": "Family of micro controller",

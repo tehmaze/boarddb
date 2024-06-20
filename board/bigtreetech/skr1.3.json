@@ -2,7 +2,9 @@
     "manufacturer": "BIGTREETECH",
     "product": "SKR V1.3",
     "mcuFamily": "LPC",
-    "mcu": "LPC1768",
+    "mcu": [
+        "lpc1768"
+    ],
     "stepstick": [
         {
             "label": "X",
